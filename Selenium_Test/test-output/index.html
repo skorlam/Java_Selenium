@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\skorl\AppData\Local\Temp\testng-eclipse-456062711\testng-customsuite.xml</span>
+                    <span>C:\Users\skorl\AppData\Local\Temp\testng-eclipse-2096428046\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.login_Test_DemoTestNG" hash-for-method="loginTest1">loginTest1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.loginTravelTest" hash-for-method="TestAssertLogin">TestAssertLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.login_Test_DemoTestNG" hash-for-method="loginTest2">loginTest2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.loginTravelTest" hash-for-method="TestLogin">TestLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.loginTravelTest" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.loginTravelTest" hash-for-method="teardown">teardown</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +137,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Test.login_Test_DemoTestNG</span>
+              <span class="class-name">Test.loginTravelTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest1">
-                  </a> <!-- loginTest1 -->
-                  <span class="method-name">loginTest1</span>
+                  <a name="TestAssertLogin">
+                  </a> <!-- TestAssertLogin -->
+                  <span class="method-name">TestAssertLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest2">
-                  </a> <!-- loginTest2 -->
-                  <span class="method-name">loginTest2</span>
+                  <a name="TestLogin">
+                  </a> <!-- TestLogin -->
+                  <span class="method-name">TestLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="teardown">
+                  </a> <!-- teardown -->
+                  <span class="method-name">teardown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +173,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\skorl\AppData\Local\Temp\testng-eclipse-456062711\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\skorl\AppData\Local\Temp\testng-eclipse-2096428046\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +182,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.login_Test_DemoTestNG&quot;/&gt;
+      &lt;class name=&quot;Test.loginTravelTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +222,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest2')
-data.setCell(0, 2, 'Test.login_Test_DemoTestNG')
-data.setCell(0, 3, 5922);
+data.setCell(0, 1, 'setUp')
+data.setCell(0, 2, 'Test.loginTravelTest')
+data.setCell(0, 3, 12977);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest1')
-data.setCell(1, 2, 'Test.login_Test_DemoTestNG')
-data.setCell(1, 3, 4144);
+data.setCell(1, 1, 'TestLogin')
+data.setCell(1, 2, 'Test.loginTravelTest')
+data.setCell(1, 3, 10612);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'teardown')
+data.setCell(2, 2, 'Test.loginTravelTest')
+data.setCell(2, 3, 1970);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestAssertLogin')
+data.setCell(3, 2, 'Test.loginTravelTest')
+data.setCell(3, 3, 70);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,23 +269,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.login_Test_DemoTestNG</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUpTest</span>
+              <div class="chronological-class-name">Test.loginTravelTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginTest1</span>
-                <span class="method-start">12465 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">loginTest2</span>
-                <span class="method-start">16625 ms</span>
+                <span class="method-name">TestLogin</span>
+                <span class="method-start">13002 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">22549 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">TestAssertLogin</span>
+                <span class="method-start">23617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">teardown</span>
+                <span class="method-start">23690 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
